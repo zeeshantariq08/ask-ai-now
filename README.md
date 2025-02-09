@@ -1,58 +1,83 @@
-# 🤖 Ask AI Now
+# Ask AI Now 🤖✨
 
-**Ask AI Now** is an AI-powered FAQ assistant built with **Laravel Livewire** and **Filament**. It allows users to ask questions and receive instant AI-generated responses.
+Ask AI Now is an interactive AI-powered FAQ assistant that leverages Google's **Gemini Model** for generating responses. It is built with **Laravel**, **FilamentPHP**, and **Livewire**, providing a seamless experience for users to ask questions and receive AI-driven answers.
 
 ## 🚀 Features
 
-- 🧠 AI-powered responses to user questions
-- ⚡ Built using Laravel Livewire & Filament
-- ⌨️ Submit questions by pressing **Enter**
-- 🎨 Interactive and responsive UI
-- 🔄 Loading animation for better UX
+- 🤖 **AI-Powered Responses** - Uses Google's **Gemini Model** to generate intelligent answers.
+- ⚡ **Real-Time Interaction** - Built with **Livewire** for dynamic, fast, and interactive communication.
+- 🎛️ **Admin Dashboard** - Powered by **FilamentPHP**, making it easy to manage AI responses and user queries.
+- ⏳ **Live Loading Indicator** - Shows a thinking animation while processing responses.
+- ⌨️ **Enter Key Submission** - Users can submit questions just by pressing **Enter**.
+  
+## 🛠️ Tech Stack
 
-## 🛠️ Installation
+- **Backend:** Laravel, FilamentPHP, Livewire  
+- **AI Model:** Google Gemini API  
+- **Frontend:** Tailwind CSS, Alpine.js  
+- **Database:** MySQL (or any supported Laravel DB)  
 
-Follow these steps to set up the project locally:
+## 📦 Installation
 
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/your-username/ask-ai-now.git
-cd ask-ai-now
-```
+1. Clone the repository:
 
-### 2️⃣ Install Dependencies
-```sh
-composer install
-npm install && npm run dev
-```
+   ```sh
+   git clone https://github.com/zeeshantariq08/ask-ai-now.git
+   cd ask-ai-now
+   ```
 
-### 3️⃣ Set Up Environment Variables
-```sh
-cp .env.example .env
-php artisan key:generate
-```
-Update the `.env` file with your **database** and **AI API** credentials.
+2. Install dependencies:
 
-### 4️⃣ Run Migrations
-```sh
-php artisan migrate
-```
+   ```sh
+   composer install
+   npm install
+   ```
 
-### 5️⃣ Start the Development Server
-```sh
-php artisan serve
-```
+3. Set up environment variables:
 
-## 🎯 Usage
-- Open the app in a browser.
-- Type a question and press **Enter** to get an AI-generated response.
-- Responses are displayed dynamically using **Livewire**.
+   ```sh
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-## 🔧 Contributing
-Feel free to fork the repo and submit a **pull request** if you'd like to contribute!
+4. Configure your **Google Gemini API Key** in `.env`:
+
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+5. Run migrations:
+
+   ```sh
+   php artisan migrate
+   ```
+
+6. Start the development server:
+
+   ```sh
+   php artisan serve
+   ```
+
+## 🔥 Usage
+
+1. Visit `http://127.0.0.1:8000` in your browser.
+2. Type a question in the input field and press **Enter**.
+3. The AI will generate a response instantly!
+4. Admins can manage queries and logs via **FilamentPHP Dashboard**.
+
+## 📸 Screenshots
+
+> Add relevant screenshots here.
+
+## 🛠️ Contributing
+
+Feel free to contribute! Fork the repo, make changes, and open a **Pull Request**.
 
 ## 📄 License
+
 This project is licensed under the **MIT License**.
 
 ---
-Made with ❤️ using Laravel & Filament.
+
+### 🔗 Connect with me!
+🚀 [GitHub](https://github.com/zeeshantariq08) | ✉️ [Email](mailto:zeeshiq58@gmail.com)
