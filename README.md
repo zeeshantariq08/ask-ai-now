@@ -5,11 +5,13 @@ Ask AI Now is an interactive AI-powered FAQ assistant that leverages Google's **
 ## 🚀 Features
 
 - 🤖 **AI-Powered Responses** - Uses Google's **Gemini Model** to generate intelligent answers.
+- 💡 **Context-Aware Chat** - Remembers previous interactions to provide more relevant and intelligent responses.
 - ⚡ **Real-Time Interaction** - Built with **Livewire** for dynamic, fast, and interactive communication.
-- 🎛️ **Admin Dashboard** - Powered by **FilamentPHP**, making it easy to manage AI responses and user queries.
+- 🎧 **Conversation History** - Users can view past questions and answers for a better experience.
+- 📚 **Admin Dashboard** - Powered by **FilamentPHP**, making it easy to manage AI responses and user queries.
 - ⏳ **Live Loading Indicator** - Shows a thinking animation while processing responses.
 - ⌨️ **Enter Key Submission** - Users can submit questions just by pressing **Enter**.
-  
+
 ## 🛠️ Tech Stack
 
 - **Backend:** Laravel, FilamentPHP, Livewire  
@@ -63,7 +65,8 @@ Ask AI Now is an interactive AI-powered FAQ assistant that leverages Google's **
 1. Visit `http://127.0.0.1:8000` in your browser.
 2. Type a question in the input field and press **Enter**.
 3. The AI will generate a response instantly!
-4. Admins can manage queries and logs via **FilamentPHP Dashboard**.
+4. Chat history is maintained for context-aware responses.
+5. Admins can manage queries and logs via **FilamentPHP Dashboard**.
 
 ## 📸 Screenshots
 
@@ -73,7 +76,7 @@ Ask AI Now is an interactive AI-powered FAQ assistant that leverages Google's **
 
 Feel free to contribute! Fork the repo, make changes, and open a **Pull Request**.
 
-## 📄 License
+## 📝 License
 
 This project is licensed under the **MIT License**.
 
